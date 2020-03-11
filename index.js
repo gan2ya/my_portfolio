@@ -1,5 +1,5 @@
  var list_proj = [
-   {"name": "Smart House Page", "img": "", "href": "https://gan2ya.github.io/smart-house/", "info": "Mobileversion SmartHouse main page.<p></p> Used: HTML CSS"}, 
+   {"name": "Smart House Page", "img": "https://github.com/gan2ya/my_portfolio/blob/master/prew.jpg", "href": "https://gan2ya.github.io/smart-house/", "info": "Mobileversion SmartHouse main page.<p></p> Used: HTML CSS"}, 
   {"name": "Tribute page", "img": "https://codepen.io/Gan2ya/pen/mXJLwL/image/large.png", "href": "https://codepen.io/Gan2ya/full/mXJLwL", "info": "First project, dedicated personality of ukranian history.<p></p> Used: HTML Bootstrap"},
                   
                   {"name": 'Random Quote Machine', "img": "https://codepen.io/Gan2ya/pen/wmqjjw/image/large.png", "href": "https://codepen.io/Gan2ya/full/wmqjjw", "info": "Generation random quote.<p></p> Used: HTML CSS Bootstrap jQuery"},
