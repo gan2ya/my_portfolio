@@ -43,7 +43,13 @@ style=" fill:#ffffff;"><path d="M 25 2 C 12.347656 2 2 11.597656 2 23.5 C 2 30.0
           .append($('<a>').html(codepen_symbol).attr({href:val.href, target: "_blank"})))
    .appendTo("#project");
   });
-  
+$('<div></div>').addClass('proj').css({backgroundImage: 'src='+./prew.jpg+'})
+   .append($('<div></div>').addClass('opacity'))
+   .append($('<div></div>').addClass('proj_name').text('Smart House Page'))
+   .append($('<div></div>').addClass('info').html("Mobileversion SmartHouse main page.<p></p> Used: HTML CSS"))
+   .append($('<div></div>').addClass('link_project')
+          .append($('<a>').html(github_symbol).attr({href:"https://gan2ya.github.io/smart-house/", target: "_blank"})))
+   .appendTo("#project");
 document.getElementById("github-link").innerHTML+=github_symbol;
 document.getElementById("codepen-link").innerHTML+=codepen_symbol;
 document.getElementById("glitch-link").innerHTML+=messager_symbol;
