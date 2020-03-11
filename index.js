@@ -1,22 +1,22 @@
  var list_proj = [
-   {"name": "Smart House Page", "img": "./prew.jpg", "href": "https://gan2ya.github.io/smart-house/", "info": "Mobileversion SmartHouse main page.<p></p> Used: HTML CSS"}, 
-  {"name": "Tribute page", "img": "https://codepen.io/Gan2ya/pen/mXJLwL/image/large.png", "href": "https://codepen.io/Gan2ya/full/mXJLwL", "info": "First project, dedicated personality of ukranian history.<p></p> Used: HTML Bootstrap"},
+   {"name": "Smart House Page", "img": "./prew.jpg", "href": "https://gan2ya.github.io/smart-house/", "info": "Mobile version SmartHouse main page.<p></p> Used: HTML CSS", "source": github_symbol}, 
+  {"name": "Tribute page", "img": "https://codepen.io/Gan2ya/pen/mXJLwL/image/large.png", "href": "https://codepen.io/Gan2ya/full/mXJLwL", "info": "First project, dedicated personality of ukranian history.<p></p> Used: HTML Bootstrap", "source": codepen_symbol},
                   
-                  {"name": 'Random Quote Machine', "img": "https://codepen.io/Gan2ya/pen/wmqjjw/image/large.png", "href": "https://codepen.io/Gan2ya/full/wmqjjw", "info": "Generation random quote.<p></p> Used: HTML CSS Bootstrap jQuery"},
+                  {"name": 'Random Quote Machine', "img": "https://codepen.io/Gan2ya/pen/wmqjjw/image/large.png", "href": "https://codepen.io/Gan2ya/full/wmqjjw", "info": "Generation random quote.<p></p> Used: HTML CSS Bootstrap jQuery", "source": codepen_symbol},
                   
-                  {"name": "Local Weather", "img": "https://codepen.io/Gan2ya/pen/XEZrYR/image/large.png", "href": "https://codepen.io/Gan2ya/full/XEZrYR", "info": "Show the local weather, used weather API.<p></p> Used: HTML CSS Bootstrap jQuery"},
+                  {"name": "Local Weather", "img": "https://codepen.io/Gan2ya/pen/XEZrYR/image/large.png", "href": "https://codepen.io/Gan2ya/full/XEZrYR", "info": "Show the local weather, used weather API.<p></p> Used: HTML CSS Bootstrap jQuery", "source": codepen_symbol},
                   
-                  {"name": "Wikipedia Viewer", "img": "https://codepen.io/Gan2ya/pen/GxGEqG/image/large.png", "href": "https://codepen.io/Gan2ya/full/GxGEqG", "info": "Implementation Search viewer, aply wikipedia API.<p></p> Used: HTML CSS Bootstrap jQuery "},
+                  {"name": "Wikipedia Viewer", "img": "https://codepen.io/Gan2ya/pen/GxGEqG/image/large.png", "href": "https://codepen.io/Gan2ya/full/GxGEqG", "info": "Implementation Search viewer, aply wikipedia API.<p></p> Used: HTML CSS Bootstrap jQuery ", "source": codepen_symbol},
                                   
-                  {"name": "Tic Tac Toe Game", "img": "https://codepen.io/Gan2ya/pen/OJPjVyV/image/large.png", "href": "https://codepen.io/Gan2ya/full/OJPjVyV", "info": "Classial TicTacToeGame, wiсh includes different mode.<p></p> Used: HTML CSS JS"},
+                  {"name": "Tic Tac Toe Game", "img": "https://codepen.io/Gan2ya/pen/OJPjVyV/image/large.png", "href": "https://codepen.io/Gan2ya/full/OJPjVyV", "info": "Classial TicTacToeGame, wiсh includes different mode.<p></p> Used: HTML CSS JS", "source": codepen_symbol},
    
-                  {"name": "Choropleth Map", "img": "https://codepen.io/Gan2ya/pen/qgGXNy/image/large.png", "href": "https://codepen.io/Gan2ya/full/qgGXNy", "info": "Choropleth Map<p></p>Used: HTML CSS D3.js "},
+                  {"name": "Choropleth Map", "img": "https://codepen.io/Gan2ya/pen/qgGXNy/image/large.png", "href": "https://codepen.io/Gan2ya/full/qgGXNy", "info": "Choropleth Map<p></p>Used: HTML CSS D3.js ", "source": codepen_symbol},
    
-                  {"name": "Pomodoro Clock", "img":"https://codepen.io/Gan2ya/pen/QzvvdN/image/large.png", "href": "https://codepen.io/Gan2ya/full/QzvvdN", "info":"Flexible and easy Tomato Timer<p></p> Used: CSS React"},
+                  {"name": "Pomodoro Clock", "img":"https://codepen.io/Gan2ya/pen/QzvvdN/image/large.png", "href": "https://codepen.io/Gan2ya/full/QzvvdN", "info":"Flexible and easy Tomato Timer<p></p> Used: CSS React", "source": codepen_symbol},
                   
-                  {"name": "Calculator", "img": "https://codepen.io/Gan2ya/pen/REVoad/image/large.png", "href": "https://codepen.io/Gan2ya/full/REVoad", "info": "Javascript Calculator<p></p>Used: CSS React"},
+                  {"name": "Calculator", "img": "https://codepen.io/Gan2ya/pen/REVoad/image/large.png", "href": "https://codepen.io/Gan2ya/full/REVoad", "info": "Javascript Calculator<p></p>Used: CSS React", "source": codepen_symbol},
    
-                  {"name": "Drum Machine", "img": "https://codepen.io/Gan2ya/pen/GwJgGm/image/large.png", "href": "https://codepen.io/Gan2ya/full/GwJgGm", "info": "First project for learning React<p></p> Used: CSS React"}]
+                  {"name": "Drum Machine", "img": "https://codepen.io/Gan2ya/pen/GwJgGm/image/large.png", "href": "https://codepen.io/Gan2ya/full/GwJgGm", "info": "First project for learning React<p></p> Used: CSS React", "source": codepen_symbol}]
   
  
 let codepen_symbol= `<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -40,16 +40,12 @@ style=" fill:#ffffff;"><path d="M 25 2 C 12.347656 2 2 11.597656 2 23.5 C 2 30.0
    .append($('<div></div>').addClass('proj_name').text(val.name))
    .append($('<div></div>').addClass('info').html(val.info))
    .append($('<div></div>').addClass('link_project')
-          .append($('<a>').html(codepen_symbol).attr({href:val.href, target: "_blank"})))
+          .append($('<a>').html(val.source).attr({href:val.href, target: "_blank"})))
    .appendTo("#project");
   });
-$('<div></div>').addClass('proj').css({backgroundImage: 'src='+./prew.jpg+'})
-   .append($('<div></div>').addClass('opacity'))
-   .append($('<div></div>').addClass('proj_name').text('Smart House Page'))
-   .append($('<div></div>').addClass('info').html("Mobileversion SmartHouse main page.<p></p> Used: HTML CSS"))
-   .append($('<div></div>').addClass('link_project')
-          .append($('<a>').html(github_symbol).attr({href:"https://gan2ya.github.io/smart-house/", target: "_blank"})))
-   .appendTo("#project");
+
+
+
 document.getElementById("github-link").innerHTML+=github_symbol;
 document.getElementById("codepen-link").innerHTML+=codepen_symbol;
 document.getElementById("glitch-link").innerHTML+=messager_symbol;
