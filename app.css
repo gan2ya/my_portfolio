@@ -3,19 +3,31 @@ html {
   scroll-behavior: smooth;
   font: 1em Candal;
 }
+body{
+  
+  margin:0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
 
 #main {
+  
+  max-width: 1400px;
+  margin:0;
+  padding: 0;
+  min-height: 100vh ;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
+  
+  
 }
 
 .corner {
   position: fixed;
   height: 200px;
   width: 150px;
-  left: 0px;
+  display: flex;
+  justify-content: flex-end;
   top: 50px;
   z-index: 1;
   background-color: transparent;
@@ -34,7 +46,7 @@ html {
 .navbar-top {
   top: 0px;
   height: 50px;
-  width: 100%;
+  width: 1400px;
   background-color: #ad776e;
   opacity: 1;
 }
